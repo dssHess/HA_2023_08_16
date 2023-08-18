@@ -8,7 +8,7 @@ class TestMulti(unittest.TestCase):
         self.assertEqual(multi(1, 2), 2)
         self.assertEqual(multi(4, 7), 28)
 
-    def test_multi_function_with_floats(self):
+    def test_multi_function_with_floats(self):#1232183
         self.assertAlmostEqual(multi(3.1, 2.1), 6.51)
 
 
